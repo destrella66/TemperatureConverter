@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #fff;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1e1e1e;
+}
+/* Main styles */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 400px;
+  background: #3ab8f2;
+  padding: 30px 15px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.container .title {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.container #tempId {
+  border: 3px solid #1e1e1e;
+  border-radius: 20px;
+  padding: 10px;
+  transition: 0.3s;
+  color: #1e1e1e;
+}
+.container #tempId:hover {
+  transform: scale(1.1);
+  box-shadow: #1e1e1e83 0px 0px 40px 0px;
+}
+
+.container .inputBox {
+  margin-bottom: 50px;
+}
+.container .inputBox label {
+  font-size: 20px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.container .inputBox label:hover {
+  font-size: 22px;
+}
+
+.container #submitButton {
+  padding: 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: 3px solid #1e1e1e;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 30px;
+  transition: 0.3s;
+  color: #1e1e1e;
+}
+.container #submitButton:hover {
+  transform: scale(1.1);
+  box-shadow: #1e1e1e83 0px 0px 40px 0px;
+}
+
+.container #tempLabel {
+  font-size: 34px;
+  font-weight: 600;
+  border-bottom: 3px solid #fff;
+  padding: 20px;
+}
